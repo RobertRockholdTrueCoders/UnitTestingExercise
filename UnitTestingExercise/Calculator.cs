@@ -16,6 +16,21 @@ namespace UnitTestingExercise
         {
             return num1 + num2 + num3;
         }
+        
+        public int Subtract(int minuhend, int subtrhend)
+        {
+            return minuhend - subtrhend;
+        }
+        
+        public int Multiply(int mult1, int mult2)
+        {
+            return mult1 * mult2;
+        }
+        
+        public int Divide(int div1, int div2)
+        {
+            return div1 / div2;
+        }
 
 
         // Step 3: Navigate to the UnitTests.cs file and complete the AddTest unit test method 
